@@ -40,19 +40,19 @@ print(os.path.isabs("0 - Introduction.txt"))
 print(os.path.relpath("0 - Introduction.txt", "C:\\"))
 
 # GET DIRECTORY PART
-print(os.path.dirname("C:\\Users\\matth\\OneDrive\\Documents\\ProgramminLanguagesLearning\\Python\\AutomateBoringStuffwithPython\\0 - Introduction.txt"))
+print(os.path.dirname(fileName))
 
 # GET BASE PART
-print(os.path.basename("C:\\Users\\matth\\OneDrive\\Documents\\ProgrammingLanguagesLearning\\Python\\AutomateBoringStuffwithPython\\0 - Introduction.txt"))
+print(os.path.basename(fileName))
 
 # CHECK IF PATH EXISTS
-print(os.path.exists("C:\\Users\\matth\\OneDrive\\Documents\\ProgrammingLanguagesLearning\\Python\\AutomateBoringStuffwithPython\\0 - Introduction.txt"))
+print(os.path.exists(fileName))
 
 # GET SIZE
 print(os.path.getsize("0 - Introduction.txt"))
 
 # GET FILE INSIDE A FOLDER
-filesInFolder = os.listdir("C:\\Users\\matth\\OneDrive\\Documents\\ProgrammingLanguagesLearning\\Python\\AutomateBoringStuffwithPython")
+filesInFolder = os.listdir(fileName)
 
 # GET SIZE OF EACH FILE IN A FOLDER
 totalSize = 0
@@ -102,7 +102,7 @@ shelfFile.close()
 #copy rename remove files using shutil
 
 import shutil
-shutil.copy("0 - Introduction.txt", "C:\\Users\\matth\\OneDrive\\Documents\\ProgrammingLanguagesLearning\\C Learning\\C projects (not cleaned)\\Couple Vinder")
+shutil.copy("0 - Introduction.txt", target)
 
 # delete a single file
 # os.unlink()
