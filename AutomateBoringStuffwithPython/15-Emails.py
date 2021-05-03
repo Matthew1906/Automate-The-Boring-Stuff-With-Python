@@ -22,7 +22,7 @@ connection.starttls()# start encryption first
 # connection.login("matthewadrianus@gmail.com",<passwordString>) #pass the email and password
 # i'll delete the password for safety
 
-connection.sendmail("matthewadrianus@gmail.com","matthewadrianus@gmail.com","subject: So long...\n\nDear Matthew,\nThis is a test email\n\n")
+connection.sendmail(senderEmail,targetEmail,"subject: So long...\n\nDear Matthew,\nThis is a test email\n\n")
 
 connection.quit()
 
