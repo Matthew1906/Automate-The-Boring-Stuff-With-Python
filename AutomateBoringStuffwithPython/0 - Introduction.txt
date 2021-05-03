@@ -1,0 +1,19 @@
+small programs to do stuff
+
+good first set of programming language
+
+python = best first language
+-> used by everyone
+
+-> only need interpreter
+
+In stack overflow:
+- explain what you're trying to do(not just what you did)
+- if get error message, specify the point where the error happens
+- Copy and paste entire error message
+- Explain all the tries you've done to debug
+- List the version of interpreter/compiler
+- list operating system
+
+=> ask questions and knowing what to find-> good programmer
+
