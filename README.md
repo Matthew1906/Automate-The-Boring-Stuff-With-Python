@@ -6,3 +6,5 @@ The course name is Automate the Boring Stuff with Python by Al Sweigart, availab
 This course covers python basic, web scraping, pythonautogui, sending/checking emails, and reading/writing files(text file, binary-file, docx, pdf, xlsx_
 
 Since the course is quite old, there are some lessons which i can't follow (due to my laptop somehow can't install the library/can't compile them, even if i copy paste)
+
+I changed some programs because it contains my email/file directories, so some of the files won't instantly run smoothly if anyone copied it
